@@ -1,0 +1,582 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+@font-face {
+    font-family: 'Reey';
+    src: url('../fonts/Reey-Regular.woff2') format('woff2');
+    src: url('../fonts/Reey-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+header { 
+    background-image: url("../images/headerbg.png");
+    width: 100%;
+    height: 165%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link, .nav-link:hover  { 
+    color: #fff;
+    text-transform: uppercase;
+    padding: 68px 29px!important;
+    font-weight: bold;
+    line-height: 1.2;
+} 
+.search {
+    width: 183px;
+    border-radius: 22px;
+    border: 1px solid white;
+    padding: 8px;
+}
+
+.fa.fa-search { 
+    margin: -40px;
+    color: rgb(52, 52, 52);
+}
+
+.header-info {
+    color: #fff;
+    padding-left: 100px;
+}
+
+.header-info h1{
+    font-family: 'Reey'!important;
+    font-size: 60px;
+    padding: 50px 0px 30px 0px;   
+}
+
+.header-info h2{
+    font-size: 23px;
+    padding: 66px 0px;  
+    font-style: italic; 
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn { 
+    border-radius: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.btn.btn-read { 
+    color: rgb(46, 48, 52);
+    background-color: #fff;
+    line-height: 1.2;
+    margin-bottom: 26px;
+    opacity: 0.902;
+    width: 218px;
+    height: 47px;
+}
+
+.header-info p{
+    font-style: italic;
+    font-size: 19px;
+    line-height: 1.2;
+
+}
+
+.plates {
+    text-align: center;
+    padding: 0px 100px;
+}
+
+.plates h1 {
+    font-family: 'Reey';
+    font-size: 98.5px;
+    padding: 40px;
+    line-height: 1.2;
+    color: rgb(34, 35, 40);
+}
+
+.plates h3 {
+    font-size: 30px;
+    font-family: "Open Sans";
+    color: rgb(47, 49, 53);
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 100px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.plates h2 {
+    padding: 30px 0px 15px 0px;
+    font-size: 29px;
+    color: rgb(52, 52, 52);
+    font-weight: bold;
+    line-height: 1.2;  
+}
+
+.pasta img {
+    width: 100%;
+}
+
+.plates p {
+    font-size: 23px;
+    color: rgb(52, 52, 52);
+    line-height: 1.2;
+}
+
+.btn.btn-show, .btn.btn-show-2, .btn.btn-show-3{ 
+    background-color: rgb(52, 52, 52);
+    color: #fff;
+    line-height: 0.907;
+    margin-top: 125px;
+    margin-bottom: 50px;
+    width: 334px;
+    height: 70px;
+    border-radius: 40px;
+    letter-spacing: 1px;
+}
+.more-info {
+    padding: 40px;
+    background-color: rgb(39, 41, 44);
+    text-align: center;
+    color: #fff;
+}
+
+.more-info h1 {
+    font-size: 98.5px;
+    font-family: 'Reey';
+    color: #fff;
+    padding: 50px 0px 60px 0px;
+}
+
+.more-info p {
+    font-size: 14px;
+    padding-bottom: 77px;
+    text-align: left;
+    width: 70%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.first-paragraph {
+    float:right;
+}
+
+.btn.btn-read-2 {
+    border-radius: 22px;
+    color: rgb(46, 48, 52);
+    background-color: #fff;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    opacity: 0.902;
+    width: 271px;
+    height: 58px; 
+}
+
+.discount{
+    padding: 50px;
+}
+
+.discount-img {
+    width: 105%;
+}
+
+.discount h1, .promo h1 {
+    font-size: 58px;
+    color: rgb(39, 41, 44);
+    font-weight: bold;
+    line-height: 1.2;  
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+.discount-info {
+    padding: 90px 42px;
+}
+
+.discount-info p, .promo p {
+    font-size: 28px;
+    color: rgb(39, 41, 44);
+    line-height: 1.1;
+    padding: 45px 0px;
+    margin: 0px;
+}
+
+.btn.btn-show-2 { 
+    margin: 0px;
+}
+
+.promo-info {
+    padding: 100px 50px 10px 120px;
+}
+
+.promo-img {
+    width: 100%;
+}
+
+.btn.btn-show-3{ 
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.pizza-section {
+    background-image: url("../images/pizzabg.png");
+    width: 100%;
+    height: 230%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin-top: -140px;
+    text-align: center;
+    color: #fff;
+    padding: 200px 20px;
+}
+.pizza-section h1 {
+    font-size: 58px;
+    font-family: 'Reey';
+    color: rgb(248, 246, 241);
+    padding: 100px 0px 55px 0px;
+}
+
+.pizza-section p {
+    font-size: 25px;
+    /* font-family: "Montserrat"; */
+    color: rgb(248, 246, 241);  
+}
+
+.divide  {
+    width: 164px;
+    margin: auto;
+    border: none;
+    height: 11px;
+    background: #fff;
+    margin-top: 42px;
+}
+
+.three-sections {
+    padding:0px 60px 60px 60px;
+    text-align: center;
+}
+
+.three-sections h2 {
+    font-size: 42px;
+    font-family: 'Reey';
+    color: rgb(57, 57, 57);
+    padding-bottom: 30px;
+}
+
+.three-sections p {
+
+font-size: 19px;
+font-family: 'Open Sans', sans-serif;
+color: rgb(51, 61, 66);
+line-height: 1.33;
+text-align: left;
+}
+
+.three-sections h3 {
+    font-size: 25px;
+    color: rgb(63, 63, 63);
+    line-height: 1.2;
+    padding-top: 235px;
+}
+.end-section {
+    font-size: 21px;
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+    line-height: 1.6;
+    padding: 62px 0px 90px 0px; 
+    display: inline-flex;
+}
+
+.subscribe-section { 
+    background-image: url("../images/subscribe-img.png");
+    width: 100%;
+    height: 924px;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+
+.subscribe-section h1 {
+    font-size: 68px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 1.2;  
+    padding-top: 240px;
+}
+
+.subscribe-section p {
+    font-size: 28px;
+    color: #fff;
+    padding: 70px 0px;
+    line-height: 1.2;
+}
+.input-email  { 
+    display: flex;
+    width: 55%;
+    margin: auto;
+}
+input[type="email"]::placeholder {  
+    padding-left: 20px; 
+} 
+.form-control { 
+    height: 52px;
+    font-size: 20px;
+    border-radius: 35px;
+    color: rgba(84, 82, 79, 0.678); 
+}
+
+.btn.btn-subscribe  { 
+    background-color: rgb(84, 82, 79);
+    width: 222px;
+    border-radius: 35px;
+    color: #fff;
+    margin-left: -45px;
+    padding: 5px 25px;
+
+}
+
+footer { 
+    padding: 250px 30px 390px 30px;
+}
+
+footer h2 { 
+    color: #343434;
+    letter-spacing: 1px;
+}
+
+footer p, footer ul li a { 
+    padding-top: 38px;
+    font-size: 20px;
+    color: rgb(52, 52, 52);
+}
+
+footer ul { 
+    list-style: none;
+    padding-top: 38px;
+}
+
+footer ul li { 
+    line-height: 1.8;
+}
+
+.fa.fa-instagram, .fa.fa-facebook, .fa.fa-twitter, .fa.fa-whatsapp {
+    background: #343434;
+    color: white;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    padding: 10px 11px;
+}
+
+.fa.fa-facebook { 
+    padding: 10px 13px;
+}
+
+@media  (max-width:1225px) {
+    .plates h1, .more-info h1 {
+        font-size: 65px;
+    }
+}
+
+
+@media  (max-width:991px) {
+    .navbar-toggler {
+        border: 1px solid #fff;
+    }
+    .nav-link, .nav-link:hover {
+        padding: 15px!important;
+    }
+    .discount h1, .promo h1 {
+        font-size: 35px;
+    }
+    .discount-info p, .promo p {
+        font-size: 18px;
+        padding: 15px 0px;
+    }
+    .subscribe-section {      
+        height: 100%;
+    } 
+    .subscribe-section h1 {
+        padding-top: 95px;
+    }
+    .three-sections h3 {
+        padding-top: 150px;
+    }
+    footer {
+        padding: 150px 30px 190px 30px;
+    }
+    .header-info {
+        padding: 20px 10px 10px 50px ;
+    }
+}
+
+
+@media  (max-width:769px) {
+    .btn {
+        width: 200px;
+        height: 55px;
+        font-size: 18px;
+    }
+    .discount-info, .promo-info {
+        padding: 30px;
+    }
+    .discount {
+        padding: 0px;
+    }
+    .three-sections {
+        padding: 0px 30px;
+    }
+    .three-sections h3 {
+        font-size: 20px;
+    }
+    .subscribe-section h1 {
+        font-size: 40px;
+    }
+    .subscribe-section p {
+        font-size: 20px;
+        padding: 35px 0px;
+    }
+    .pizza-section {
+        padding: 100px 30px;
+        margin-top: -50px;
+    }
+}
+
+@media  (max-width:767px) {
+    .plates h1, .more-info h1 {
+        font-size: 40px;
+    }   
+    .pasta img {
+        width: auto;
+    }
+    .more-info p {
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .first-paragraph {
+        float:left;
+    }
+    .btn.btn-show, .btn.btn.btn-read, .btn.btn-read-2, .btn.btn-show-2, .btn.btn-show-3 {
+        width: 200px;
+        height: 55px;
+        font-size: 18px;
+    }
+    .discount-img, .discount-img {
+        width: 100%;
+        padding-top: 20px;
+    }
+    footer {
+        padding: 70px 30px;
+    }
+    footer h2 {
+        margin-top: 30px;
+    }
+    footer ul {
+        padding-top: 10px;
+    }
+    
+}
+
+@media  (max-width:576px) {
+    .pasta img {
+        width: inherit;
+    }
+    .header-info h1 {
+        font-size: 41px;
+        padding: 50px 0px 10px 0px;
+    }
+    .header-info h2 {
+        padding: 35px 0px;
+    }
+    .btn.btn-show {
+        margin-top: 40px;
+    }
+    .plates {
+        padding: 0px 30px;
+    }
+    .plates h3 {
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .three-sections h3 {
+        padding-top: 60px;
+    }
+    .input-email {
+        width: 80%;
+    }
+    .pizza-section {
+        /* padding: 70px 20px; */
+        height: 100%;
+    }
+    .pizza-section h1 {
+        font-size: 35px;
+        padding: 20px 0px;
+    }
+    .pizza-section p {
+        font-size: 18px;
+    }
+    .pizza-section {
+        margin-top: 0px;
+    }
+}
+
+@media  (max-width:412px) {
+    .plates h1, .more-info h1 {
+        font-size: 25px;
+        padding: 20px;
+    }
+    .pizza-section h1 {
+        font-size: 30px;
+        padding-top: 45px;
+    }
+    .pizza-section p {
+        font-size: 18px;
+    }
+    .end-section {
+        font-size: 16px;
+        padding: 20px;
+    }
+    .subscribe-section h1 {
+        padding-top: 90px;
+    }
+    .subscribe-section p {
+        font-size: 18px;
+        padding: 20px;
+    }
+    .subscribe-section {
+        height: 65%;
+    }
+    header {
+        height: 100%;
+    }
+    footer {
+        padding: 20px;
+    }
+    footer ul li {
+        line-height: 1.5;
+    }
+    footer h2 {
+        font-size: 25px;
+    }
+    footer p, footer ul li a {
+        font-size: 18px;
+    }
+    .input-email {
+        width: 95%;
+    }
+}
